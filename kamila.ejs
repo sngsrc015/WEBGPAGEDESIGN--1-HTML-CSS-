@@ -1,0 +1,700 @@
+<style>
+    *{
+           margin: 0 ;
+           padding: 0;
+          
+       }
+   .header{
+           width: 100%;
+           min-height:100vh ;
+           display: flex;
+           flex-wrap: wrap;
+           background-color: black;
+          
+       }
+       .col-1{
+         flex-basis: 43%;
+         flex-grow: 1;
+         background-image:url(/images/k2.jpg);
+         background-size: cover;
+         background-position: center;
+        
+         
+   
+       }
+       .col-4 h3{
+     font-size: 4em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: #fff;
+     border-radius: 2em;
+     padding: 690px;
+    
+   }
+       .col-4{
+         width:100%;
+         height: 78vh;
+         background-image:url(/images/k9.jpg);
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   
+         margin-top: 15px;
+         display: flex;
+        
+   
+   
+       }
+   
+   
+       .col-5 h1{
+     font-size: 4em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: #fff;
+     border-radius: 2em;
+     margin-left: 650px;
+     
+     
+    
+   }
+       .col-5{
+         width:100%;
+         height: 100vh;
+         background:#000000;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   padding: 105px;
+   display:grid;
+   margin-top: 15px;
+         
+         
+        
+   
+   
+       }
+   .col-3{
+       width: 100%;
+         height: 68vh;
+         display: flex;
+         background-image: url(/images/k12.jpg);
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+       margin-top: 15px;
+        
+   
+   
+       }
+   
+       .text{
+         width: 100%;
+    padding-left: 12px;
+    
+     align-content: center;
+     justify-content: center;
+   }
+   .text h2{
+     font-size: 4em;
+     font-weight: 700;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(233, 229, 229);
+     justify-items: center;
+     margin-left: 570px;
+   }
+   
+   
+   
+   .text a:hover{
+     letter-spacing: 6px;
+   }
+      
+   .col-2{
+     flex-basis: 57%;
+         flex-grow: 1;
+   
+   }
+   .nav{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       
+   }
+   .logo{
+       width: 102px;
+       cursor:pointer;
+       padding: 25px;
+     }
+     
+     .left-text{
+       width: 70%;
+       margin: 300px auto 0;
+       margin-bottom: 75px;
+     }
+     .left-text h1{
+       font-size: 80px;
+       font-weight: 500;
+       font-family: poppins;
+       color: #fff;
+     }
+     .left-text p{
+       font-size: 15px;
+       line-height: 24px;
+       font-weight: 100;
+       font-family: poppins;
+       margin: 50px 0;
+       color: #fff;
+     }
+     
+     .left-text a {
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: #fff;
+       margin-top: 30px;
+       font-family: nunito;
+       border-radius: 3px;
+       font-family: nunito;
+       font-size: 18px;
+     
+     }
+     
+     .col-2 ul {
+   
+       list-style: none;
+       display: flex;
+       align-items:center ;
+       
+       flex-wrap: wrap;
+       margin-bottom: 100px;
+     
+       
+       justify-content: space-between;
+     
+     }
+     .col-2 ul li{
+           list-style: none;
+           display: inline-block;
+           margin: 0 20px;
+           font-family: nunito;
+           font-size: 18px;
+          
+       }
+       .col-2 ul li a{
+           text-decoration: none;
+           color:rgb(243, 227, 227);
+           text-transform: uppercase;
+           display: inline-block;
+           margin-bottom: 20px;
+       }
+       .right-text{
+       width: 70%;
+      margin: 0 10px;
+      padding: 20px 55px;
+     }
+     .right-text h2{
+       font-size: 80px;
+       font-weight: 500;
+       font-family: nunito;
+       color: rgb(226, 214, 214);
+     }
+   
+     .right-text h3{
+       font-size: 40px;
+       font-weight: 300;
+       font-family: nunito;
+       color: rgb(230, 222, 222);
+       margin-top: 0px;
+       padding:  0 5px;
+       
+     }
+     .right-text p{
+       font-size: 15px;
+       line-height: 24px;
+       font-weight: 100;
+       font-family: nunito;
+       margin: 30px 0;
+       color: rgb(253, 246, 246);
+     }
+       
+     .right-text a{
+         text-decoration: none;
+         display: inline-block;
+         background: #ff5a5a;
+         color: #fff;
+         font-family: nunito;
+         font-size: 25px;
+         font-weight: 500;
+         letter-spacing: 2px;
+         border-radius: 2px;
+         margin-bottom: 30px;
+         box-shadow:0 5px 10px rgba(255,90,90,0.7);
+     }
+   .btn{
+       border:3px solid #ff5a5a;
+       padding:10px 30px;
+   
+   }
+   .gallery{
+           display: grid;
+           grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+           grid-gap:40px
+       }
+       .gallery img{
+           width: 80%;
+           
+         
+       }
+   
+     .col-8 img{
+       width: 60%;
+       margin-left: 120px;
+     display: flex;
+     justify-items: center;
+     padding: 45px;
+   
+   
+     }
+   
+   
+       .container{
+           width: 100%;
+           min-height:92vh ;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+          
+       }
+       .col-6{
+         flex-basis: 47%;
+         flex-grow: 1;
+         background-image:url(/images/8.jpg);
+         background-size: cover;
+         background-position: center;
+         margin-top: 15px;
+   
+       }
+       .col-6 h1{
+       font-size: 60px;
+       font-weight: 500;
+       font-family: poppins;
+       color: #fff;
+       padding: 355px;
+       margin-top: 550px;
+       justify-content: center;
+     }
+     .col-7 h1{
+       font-size: 60px;
+       font-weight: 500;
+       font-family: poppins;
+       color: #fff;
+       padding: 355px;
+       margin-top: 550px;
+       justify-content: center;
+     }
+       .col-7{
+       flex-basis: 47%;
+         flex-grow: 1;
+         background-image:url(/images/k5.jpg);
+         background-size: cover;
+         background-position: center;
+         margin-top: 15px;
+   
+       }
+       .col-8 h1{
+     font-size: 6em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 350px;
+     
+     
+    
+   }
+       .col-8{
+         width:100%;
+         height: 89vh;
+         
+         background-image: url(/images/k8.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+    .col-8 a{
+     margin-left: 250px;
+     text-decoration: none;
+         display: inline-block;
+         background: #fa450e;
+         font-family: nunito;
+         color: #fff;
+         font-family: nunito;
+         font-size: 15px;
+         font-weight: 300;
+         letter-spacing: 2px;
+         border-radius: 2px;
+         margin-bottom: 30px;
+        
+    }
+   
+    .col-9{
+         width:100%;
+         height: 89vh;
+         
+         background-image: url(/images/k3.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+
+   .col-9 h1{
+     font-size: 5em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 350px;
+     
+     
+    
+   }
+
+
+   .col-10{
+         width:100%;
+         height: 89vh;
+         
+         background-image: url(/images/k10.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+
+   .col-10 h1{
+     font-size: 5em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 350px;
+     
+     
+    
+   }
+
+
+   .col-11{
+         width:100%;
+         height: 89vh;
+         
+         background-image: url(/images/k1.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+
+   .col-11 h1{
+     font-size: 5em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 350px;
+     
+     
+    
+   }
+
+   .col-12{
+         width:100%;
+         height: 89vh;
+         
+         background-image: url(/images/k7.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+
+   .col-12 h1{
+     font-size: 5em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 650px;
+     
+     
+    
+   }
+
+   .col-13{
+         width:100%;
+         height: 79vh;
+         
+         background-image: url(/images/10.jpg);
+         margin-top: 15px;
+         background-size: cover;
+         background-position: center;
+         align-items: center;
+   }
+
+   .col-13 h1{
+     font-size: 5em;
+     font-weight: 300;
+     line-height: 1em;
+     text-transform: uppercase;
+     font-family: poppins;
+     color: rgb(253, 242, 242);
+     border-radius: 2em;
+     margin-left: 250px;
+     padding-top: 350px;
+     
+     
+    
+   }
+   .col-13 a{
+     margin-left: 250px;
+     text-decoration: none;
+         display: inline-block;
+         background: #fa450e;
+         font-family: nunito;
+         color: #fff;
+         font-family: nunito;
+         font-size: 15px;
+         font-weight: 300;
+         letter-spacing: 2px;
+         border-radius: 2px;
+         margin-bottom: 30px;
+        
+    }
+   
+   </style>
+   
+   <script>
+     
+   function call()
+   {
+       result.innerHTML=`<video src='/images/103.mp4' width="900" autoplay >`}
+       
+   
+   
+   
+   
+   </script>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <html>
+   
+   
+       <html>
+           <head>
+             
+             <script src="/javascripts/lightbox-plus-jquery.js"> </script>
+             <link rel="stylesheet" href="/stylesheets/lightbox.css">
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+               <link rel="preconnect" href="https://fonts.googleapis.com">
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>modern page</title>
+               <link rel="stylesheet" href="/stylesheets/lightbox.css">
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+           </head>
+   
+      <body>   
+       
+       <div class="header">
+   <div class="col-1">
+       
+           <div class="nav" >
+               <img  src="/images/logo.png" class="logo" width="100"> 
+     
+                
+           </div>
+           
+           <div class="left-text">
+               <h1>KAMILA DAVIES</h1>
+               <p>Russian social media personality <br>who has attracted more than 2.2 million followers to her Instagram account. Her photos generate a lot of engagement on her Facebook account as well.</p>
+               <a href="#">Watch More</a>
+               
+               </div> 
+          
+         
+   
+   </div>
+   <div class="col-2">
+       <ul>
+           <li><a href="/mim/homepage">HOME</a></li>
+                       <li><a href="/mim/call">BOOKING</a></li>
+                       <li><a href="/mim/holidaypage">HOLIDAYS</a></li>
+                       <li><a href="/mim/Aboutpage">ABOUT</a></li>
+                       <li><a href="/mim/loginpage" class="btn">LOGIN</a></li>
+       </ul>
+   
+       <div class="right-text">
+           <h2>SUNKISSEDMAG</h2>
+           <h3>Check More About..</h3>
+           <p>Sunkissedmag.com has Alexa global rank of 4,367,582. Sunkissedmag.com has an estimated worth of US$ 11,640, based on its estimated Ads revenue. Sunkissedmag.com receives approximately 708 unique visitors each day. Its web server is located in United States, with IP address 141.193.213.21. According to SiteAdvisor, sunkissedmag.com is safe to visit.</p>
+   <a href="#"class="btn" onclick="call()" >Watch More</a>
+   
+   <div id="result"></div>
+   
+       </div>
+   </div>
+     
+   <div class="col-3">
+     <div class="text">
+       <h2>Polina Malniskova</h2>
+     
+     
+    
+     </div>
+   </div>
+   
+   <div class="col-4">
+     <h3>kamila Davies</h3>
+   
+   </div>
+   <div class="col-5">
+     <h1>Gallery</h1>
+     <div class="gallery">
+       <a href="/images/1.jpeg" data-lightbox="models" data-title="caption1">
+       <img src="/images/1.jpeg"></a>
+   
+       <a href="/images/2.jpg" data-lightbox="models" data-title="caption1">
+        <img src="/images/2.jpg"></a>
+   
+        <a href="/images/3.jpg" data-lightbox="models" data-title="caption1">
+            <img src="/images/3.jpg"></a>
+   
+            <a href="/images/4.jpg" data-lightbox="models" data-title="caption1">
+                <img src="/images/4.jpg"></a>
+   
+                <a href="/images/5.jpg" data-lightbox="models" data-title="caption1">
+                    <img src="/images/5.jpg"></a>
+   
+                    <a href="/images/6.jpg" data-lightbox="models" data-title="caption1">
+                        <img src="/images/6.jpg"></a>
+   
+                        <a href="/images/7.jpg" data-lightbox="models" data-title="caption1">
+                           <img src="/images/7.jpg"></a>
+   
+                           
+                           <a href="/images/k5.jpg" data-lightbox="models" data-title="caption1">
+                               <img src="/images/k5.jpg"></a>
+   
+                               <a href="/images/k2.jpg" data-lightbox="models" data-title="caption1">
+                                 <img src="/images/k2.jpg"></a>
+         
+                                 
+                                
+                                    
+                                       
+                                       <a href="/images/k6.jpg" data-lightbox="models" data-title="caption1">
+                                           <img src="/images/k6.jpg"></a>
+   
+                               
+                              
+                             </div>  
+   
+   </div>
+   
+   <div class="container">
+     <div class="col-6">
+   <h1>Polina</h1>
+     </div>
+     <div class="col-7">
+   <h1>Kamila</h1>
+     </div>
+   </div>
+   
+   <div class="col-8">
+     <h1>Kamila Davies</h1>
+     
+     
+   
+   </div>
+   <div class="col-9">
+    <h1>Kamila Davies</h1>
+    
+    
+  
+  </div>
+  <div class="col-10">
+    <h1>Kamila Davies</h1>
+    
+    
+  
+  </div>
+  <div class="col-11">
+    <h1>Kamila Davies</h1>
+    
+    
+  
+  </div>
+  <div class="col-12">
+    <h1>Kamila Davies</h1>
+    
+    
+  
+  </div>
+  <div class="col-13">
+    <h1>Polina Malniskova</h1>
+    <a href="/check/polinapage" class="btn">More</a>
+    
+    
+  
+  </div>
+  
+   
+    
+    
+  
+  
+  
+  
+   
+   </div>
+   
+   
+   </body>
+   
+   </html>

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin:0;
+    
+   
+
+}
+
+.header{
+    width: 100%;
+    height: 96vh;
+background-image: url(/images/p11.jpg);
+
+background-size: cover;
+display: absolute;
+overflow: hidden;
+
+}
+.container{
+   
+   width: 100%;
+
+  background-color: #000000;
+
+   
+
+
+
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 35px auto;
+    
+}
+.logo{
+   padding: 15px;
+    flex-basis: 15%;
+    align-items: center;
+  }
+  .logo img{
+      width: 120px;
+      cursor: pointer;
+  }
+  .menu{
+      flex: 1;
+    align-items: center;
+    text-align: right;
+
+  }
+  .menu img{
+      width: 30px;
+      margin-left: 40px;
+      cursor: pointer;  }
+
+.content{
+    width:60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    animation:textup 12s linear infinite;
+    transform: translateY(100px);
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.content h1{
+    font-size: 80px;
+}
+
+.content h3{
+    font-size: 20px;
+}
+.btn{
+    width: 200px;
+   
+    padding: 15px 0;
+    text-align: center;
+ 
+   background: #ffebe75d;
+    background-position: center;
+    margin:0 450px;
+    border-radius: 25px;
+    font-weight: bolder;
+    letter-spacing: none;
+    border: 2px solid #170f0d;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 0.5s;
+    font-family: nunito;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+
+
+
+  .box1{
+    width: 100%;
+    min-height:92vh ;
+
+  background-size:cover ;
+    background-image: url(/images/p14.jpg);
+    margin-top: 15px;
+    
+}
+
+.box2{
+    width: 100%;
+    min-height:92vh ;
+
+  background-size:cover ;
+    background-image: url(/images/p9.jpg);
+    margin-top: 15px;
+    
+}
+
+.box3{
+    width: 100%;
+    min-height:100vh ;
+ 
+  background-size:cover ;
+    background-image: url(/images/p12.jpg);
+    margin-top: 15px;
+    
+}
+
+.box5{
+    width: 100%;
+    min-height:100vh ;
+display: flex;
+flex-d: wrap;
+  background-size:cover ;
+    background-image: url(/images/p4.jpg);
+    margin-top: 15px;
+    
+}
+.box6{
+    width: 100%;
+    min-height:100vh ;
+display: flex;
+  background-size:cover ;
+    background-image: url(/images/p4.jpg);
+    margin-top: 15px;
+    
+}
